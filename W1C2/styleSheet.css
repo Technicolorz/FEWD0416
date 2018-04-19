@@ -1,0 +1,33 @@
+<style>
+
+		body {
+			background-color: #aaaaaa;
+			margin: 20px;
+		}
+		h1 {
+			font-size: 40px;
+			color: #FFFFFF;
+			background: #293854;
+			text-align: center;
+			width: 500px;
+			padding: 10px;
+			box-shadow: 2px 5px;			
+		}
+		section {
+			width: 500px;
+			background: #aaaaaa;
+		}
+		img {
+			height: 100px;
+			display: block;
+			margin: auto;
+		}
+		p {
+			color: #222222;
+			font-size: 16px;
+		}
+		.emoji {
+			color: #298755;
+			font-size: 34px;
+		}
+</style>
