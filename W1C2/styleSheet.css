@@ -1,23 +1,30 @@
-<style>
 	body {
-		background-color: #aaaaaa;
-		margin: 20px;
+		background: #ccc5e8;
+		font-family: Helvetica, sans-serif;
+		padding: 50px;
 	}
-	h1 {
-		font-size: 40px;
-		color: #FFFFFF;
-		background: #293854;
-		text-align: center;
-		width: 500px;
-		padding: 10px;
-		box-shadow: 2px 5px;			
+	nav ul li a {
+		text-transform: capitalize;
+		font-size: 22px;
 	}
-	section {
-		width: 500px;
-		background: #aaaaaa;
+	a{
+		color: black;
+		text-decoration: none;
+	}
+	li {
+		display: inline-block;
+	}
+	h3 {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+	div {
+		margin: 20px 0;
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
 	}
 	img {
-		height: 100px;
+		height: 250px;
 		display: block;
 		margin: auto;
 	}
@@ -29,4 +36,3 @@
 		color: #298755;
 		font-size: 34px;
 	}
-</style>
