@@ -1,26 +1,20 @@
 body {
-	background: #e6eaff;
-	font-family: 'Open Sans', sans-serif;
-	border-top: 5px solid #000;
-	border-bottom: 5px solid #000;
-	width: auto;
+		background: #e6eaff;
+		font-family: 'Open Sans', sans-serif;
+		border-top: 5px solid #000;
+		border-bottom: 5px solid #000;
+		width: auto;
 }
-nav ul li a {
+nav > ul > li a, span {
 	text-transform: capitalize;
 	font-size: 18px;
 	text-decoration: none;
+	margin: auto;
+	display: inline-block;
 }
 nav {
-	text-align: center;
+	
 	padding: 20px 0 5px 0;
-}
-ul {
-	padding: 0;
-	margin: 0;
-	text-align: center;
-}
-li {
-	display: inline-block;
 }
 a{
 	color: black;
@@ -41,9 +35,13 @@ h2 {
 h3 {
 	text-transform: uppercase;
 	font-family: 'Comfortaa', cursive;
-	font-size: 16px;
+	font-size: 20px;
 	letter-spacing: 2px;
 	color: #2c1d63;
+}
+h4 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 div {
 	margin: 20px auto;
@@ -53,16 +51,15 @@ div {
 	border-bottom: 1px solid #000;
 }
 img {
-	height: 200px;
+	height: auto;
 	width: auto;
 	display: inline-block;
-	float: right;
+	padding: 20px 0 20px 40px;
 }
 p {
 	color: #222222;
 	font-family: 'PT Serif', serif;
 	font-size: 16px;
-}
-.social {
-	padding: 0 0 30px 0;
+	margin: 0;
+	padding: 0;
 }
