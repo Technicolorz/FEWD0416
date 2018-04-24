@@ -53,7 +53,8 @@
 		border-bottom: 1px solid #000;
 	}
 	img {
-		height: 250px;
+		height: 200px;
+		width: auto;
 		display: inline-block;
 		float: right;
 	}
