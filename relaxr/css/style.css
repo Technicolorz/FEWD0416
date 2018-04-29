@@ -1,0 +1,58 @@
+/*RELAXR*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: extrabold;
+  color: #fff;
+}
+h2 {
+  color: #fff;
+  text-align: center;
+}
+a {
+  color: #033048;
+  text-decoration: none;
+  padding: 5px 25px 5px 25px;
+  margin: 5px;
+}
+h3 {
+  color: #033048;
+  font-size: 20px;
+  font-weight: Semibold;
+}
+p{
+  color: #606161;
+}
+#section1 {
+  height: 700px;
+  width: auto;
+  background-image: url('../images/header_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section2 {
+  background: #f0efef;
+  padding: 40px 33% 40px 10%;
+}
+#section3 {
+  background-image: url('../images/testimonial_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#section4 {
+  background: #f9e42e;
+  padding: 20px 0 20px 0;
+}
+#section5 {
+  background: #121212;
+}
+.a1, .a2 {
+  text-align: center;
+}
+.a2 {
+}
+.copyright {
+  color: #fff;
+}

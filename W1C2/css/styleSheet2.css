@@ -1,3 +1,4 @@
+/*PORTFOLIO*/
 body {
 	background: #e6eaff;
 	font-family: 'Open Sans', sans-serif;
@@ -5,26 +6,27 @@ body {
 	border-bottom: 5px solid #000;
 	width: auto;
 }
-nav ul li a {
+nav > ul > li a, span {
 	text-transform: capitalize;
 	font-size: 18px;
-	text-decoration: none;
+	margin: 0;
 }
 nav {
-	text-align: center;
+	
 	padding: 20px 0 5px 0;
 }
-ul {
+.navul {
+	text-align: center;
 	padding: 0;
 	margin: 0;
-	text-align: center;
 }
-li {
+.navli {
 	display: inline-block;
 }
 a{
 	color: black;
 	text-transform: capitalize;
+	text-decoration: none;
 }
 a:hover {
 	color: #c3352d;
@@ -41,9 +43,13 @@ h2 {
 h3 {
 	text-transform: uppercase;
 	font-family: 'Comfortaa', cursive;
-	font-size: 16px;
+	font-size: 20px;
 	letter-spacing: 2px;
 	color: #2c1d63;
+}
+h4 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 div {
 	margin: 20px auto;
@@ -52,17 +58,35 @@ div {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 }
+div ul li {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+}
 img {
-	height: 200px;
+	height: auto;
 	width: auto;
 	display: inline-block;
-	float: right;
+	padding: 20px 0 20px 40px;
 }
 p {
 	color: #222222;
 	font-family: 'PT Serif', serif;
-	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
 }
-.social {
-	padding: 0 0 30px 0;
+.title {
+	font-style: normal;
+	font-weight: normal;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+.date {
+	font-style: normal;
+	font-weight: normal;
+	text-transform: lowercase;
+	font-size: 14px;
 }
