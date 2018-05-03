@@ -1,0 +1,89 @@
+/*** LET THE FUN BEGINNNNNNN   ****/
+/* Write css below this line */
+
+header {
+	background: darkblue;
+	height: 30px;
+	padding: 30px 20% 30px 20%;
+}
+h2 {
+	display: inline;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 28px;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+a {
+	text-decoration: none;
+	color: gold;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+h4 {
+	font-family: sans-serif;
+	color: darkblue;
+	font-size: 22px;
+}
+footer {
+	background: black;
+	color: white;
+	text-align: center;
+}
+div > span:first-child {
+	color: yellow;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+div > span:last-child {
+	font-size: 14px;
+}
+.main_nav {
+	float: right;
+}
+#main_content {
+	background: #f0efef;
+}
+.content_left {
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	width: 500px;
+	margin-left: 20%;
+}
+.content_right {
+	display: inline-block;
+	content: right;
+	width: 175px;
+	margin-left: 40px;
+}
+.article_title {
+	font-family: sans-serif;
+	color: darkblue;
+	font-size: 30px;
+}
+.signup {
+	background: gold;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.signup div {
+	display: inline;
+	background: darkblue;
+	padding: 5px 15px;
+}
+.icons {
+	display: inline-block;
+	width: auto;
+	height: auto;
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {}
+
+/***********/
