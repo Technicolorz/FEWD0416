@@ -40,12 +40,6 @@ article {
 	border-bottom: 1px solid black;
 	margin: 20px 0 20px 0;
 }
-p::first-letter {
-	color: darkblue;
-	font-size: 40px;
-	float: left;
-	margin-right: 10px;
-}
 footer {
 	background: black;
 	color: white;
@@ -74,6 +68,12 @@ div > span:last-child {
 	vertical-align: top;
 	width: 500px;
 	margin-left: 20%;
+}
+.content_left p::first-letter {
+	color: darkblue;
+	font-size: 40px;
+	float: left;
+	margin-right: 10px;
 }
 .content_right {
 	display: inline-block;
