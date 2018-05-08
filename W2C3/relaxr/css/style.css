@@ -5,35 +5,33 @@ body {
 nav {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  font-size: 30px;
   color: #fff;
   padding: 40px 33% 40px 10%;
 }
 h2 {
   color: #fff;
   text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
 }
 a {
-  color: #033048;
   text-decoration: none;
-  padding: 5px 25px 5px 25px;
-  margin: 5px;
 }
 h3 {
   color: #033048;
   font-size: 20px;
   font-weight: Semibold;
+  padding-bottom: 20px;
 }
 p{
   color: #606161;
+  width: 425px;
 }
 ul {
   padding-left: 50px;
-  width: 350px;
 }
-li {
-  list-style: circle;
-  padding: 10px 10px;
-}
+
 #section1 {
   height: 700px;
   width: auto;
@@ -46,11 +44,27 @@ li {
   background: #f0efef;
   padding: 40px 33% 40px 10%;
 }
+#section2 li {
+  list-style: disc;
+  width: 250px;
+  padding-bottom: 7px;
+}
+#section2 li:first-child {
+  padding-top: 30px;
+}
 #section3 {
   background-image: url('../images/testimonial_bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: white;
+}
+#section3 p {
+  width: 275px;
+  text-align: center;
+  padding: 30px;
+  margin: none;
+  vertical-align: middle;
 }
 #section4 {
   background: #f9e42e;
@@ -59,10 +73,24 @@ li {
 #section5 {
   background: #121212;
 }
+
 .a1, .a2 {
   text-align: center;
 }
-.a2 {
+.a1 {
+  margin-top: 100px;
+}
+.a1 a {
+  color: #033048;
+  background: #f9e42e;
+  text-decoration: none;
+  padding: 6px 35px 6px 35px;
+  margin: 5px;
+}
+.a2 a {
+  background: #033048;
+  color: white;
+  padding: 6px 35px 6px 35px;
 }
 .copyright {
   color: #fff;

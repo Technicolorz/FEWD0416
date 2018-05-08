@@ -4,7 +4,7 @@
 header {
 	background: darkblue;
 	height: 30px;
-	padding: 30px 20% 30px 20%;
+	padding: 25px 20% 25px 20%;
 }
 h2 {
 	display: inline;
@@ -16,10 +16,14 @@ h2 {
 nav ul li {
 	display: inline-block;
 	padding: 0 10px 0 10px;
+	vertical-align: middle;
 }
 a {
 	text-decoration: none;
 	color: gold;
+}
+section a {
+	color: darkblue;
 }
 img {
 	width: 100%;
@@ -29,11 +33,26 @@ h4 {
 	font-family: sans-serif;
 	color: darkblue;
 	font-size: 22px;
+	padding-bottom: 10px;
+}
+article {
+	padding: 20px 0 10px 0;
+	border-bottom: 1px solid black;
+	margin: 20px 0 20px 0;
+}
+p::first-letter {
+	color: darkblue;
+	font-size: 40px;
+	float: left;
+	margin-right: 10px;
 }
 footer {
 	background: black;
 	color: white;
 	text-align: center;
+}
+footer * {
+	display: block;
 }
 div > span:first-child {
 	color: yellow;
@@ -60,6 +79,7 @@ div > span:last-child {
 	display: inline-block;
 	content: right;
 	width: 175px;
+	margin-top: 40px;
 	margin-left: 40px;
 }
 .article_title {
@@ -67,9 +87,9 @@ div > span:last-child {
 	color: darkblue;
 	font-size: 30px;
 }
+
 .signup {
 	background: gold;
-	color: white;
 	text-align: center;
 	padding: 20px;
 }
@@ -77,6 +97,10 @@ div > span:last-child {
 	display: inline;
 	background: darkblue;
 	padding: 5px 15px;
+}
+.signup div a {
+	color: white;
+	font-family: sans-serif;
 }
 .icons {
 	display: inline-block;
