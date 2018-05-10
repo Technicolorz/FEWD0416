@@ -1,0 +1,42 @@
+rock, paper, scisors psudo code
+
+input type (rock paper scisors)
+second type input (rock paper scisors)
+get answer (win lose tie)
+
+var = p1
+var = p2
+
+var = rock
+var = scisors
+var = paper
+
+if p1 = rock and p2 = paper {
+		rock < paper
+		answer = p2 wins}
+	else if (p2 = scisors) {
+		rock > scisors
+		answer = p1 wins}
+	else if (p2 = rock) {
+		rock = rock
+		answer = tie}
+
+if p1 = paper and p2 = scisors {
+		paper < scisors
+		answer = p2 wins}
+	else if (p2 = rock) {
+		paper > rock
+		answer = p1 wins}
+ 	else if (p2 = paper) {
+		paper = paper
+		answer = tie}
+
+if p1 = scisors and p2 = rock {
+		scisors < rock
+		answer = p2 wins}
+	else if (p2 = paper) {
+		scisors > paper
+		answer = p1 wins}
+	else if (p2 = scisors) {
+		scisors = scisors
+		answer = tie}
