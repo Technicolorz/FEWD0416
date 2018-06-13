@@ -287,6 +287,14 @@ footer p {
   color: #fff;
   font-weight: 600;
 }
+#resp_nav_trigger {
+  display: none;
+  color: yellow;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
 
 @media (max-width: 960px){
   #posts {
@@ -306,11 +314,20 @@ footer p {
 }
 
 @media (max-width: 600px) {
+  header .logo {
+    float: none;
+  }
+  header nav {
+    float: none;
+  }
+  header nav ul li {
+    display: none;
+  }
+  #resp_nav_trigger {
+    display: block;
+  }
   h1 {
     padding: 0 40px;
-  }
-  nav {
-    display: none;
   }
   #hero h2 {
     padding: 40px;
