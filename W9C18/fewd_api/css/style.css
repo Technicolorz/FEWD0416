@@ -1,0 +1,26 @@
+body{
+	font-family:'Open Sans', arial;
+}
+.pokemon_item{
+	background:#eee;
+	border:1px solid #ddd;
+	padding:20px;
+	margin:10px;
+}
+.more_info{
+	background:black;
+	color:white;
+	border-radius:4px;
+	float:right;
+	border:none;
+	outline:none;
+	padding:10px;
+}
+.more_info:hover{
+	background:rgba(0,0,0,0.6)
+}
+
+.sprite {
+	height: 100px;
+	width: auto;
+}

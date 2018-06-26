@@ -1,0 +1,147 @@
+
+.about_main {
+	background: ;
+}
+#about_container {
+	max-width: 550px;
+	margin-top: 70px;
+	margin-left: 40px;
+}
+#about_container h3 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+}
+#about_container p {
+	font-family: 'Halant', serif;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+#about_container .p2 {
+	font-size: 15px;
+}
+img {
+	display: block;
+	position: absolute;
+	width: auto;
+	height: 150px;
+	margin: 50px;
+	bottom: 0;
+	right: 0;
+}
+
+@media (max-width: 999px) {
+
+	.team {
+		width: 150px;
+		height: 150px;
+		border-radius: 49%;
+		margin: 35px;
+	}
+	.moves_sec, .moves_sec2, .moves_sec3, .moves_sec4, .moves_sec5, .moves_sec6, .moves_sec7, .moves_sec8, .moves_sec9, .moves_sec10 {
+		display: none;
+	  	width: 390px;
+	  	font-size: 13px;
+	}
+	td {
+		padding: 5px 10px 5px 0;
+	}
+
+	#rg {
+		background-size: 22%;
+	}
+	#rs {
+		background-size: 25%;
+	}
+	#dp {
+		background-size: 29%;
+	}
+	#platinum {
+		background-size: 22%;
+	}
+	#gs {
+		background-size: 25%;
+	}
+	#bw {
+		background-size: 25%;
+	}
+	#bw2 {
+		background-size: 22%;
+	}
+	#xy {
+		background-size: 32%;
+	}
+	#oa {
+		background-size: 26%;
+	}
+	#sm {
+		background-size: 25%;
+	}
+
+}
+
+@media (max-width: 850px) {
+
+	.team {
+		width: 150px;
+		height: 150px;
+		border-radius: 49%;
+		margin: 35px;
+	}
+	.moves_sec, .moves_sec2, .moves_sec3, .moves_sec4, .moves_sec5, .moves_sec6, .moves_sec7, .moves_sec8, .moves_sec9, .moves_sec10 {
+	  	width: 290px;
+	  	font-size: 10px;
+	}
+	td {
+		padding: 5px 5px 5px 0;
+	}
+
+}
+
+@media (max-width: 750px) {
+
+	.team {
+		width: 100px;
+		height: 100px;
+		border-radius: 49%;
+		margin: 40px;
+	}
+	.team::first-line {
+		line-height: 3;
+	}
+	#rg, #rs, #dp, #platinum, #gs, #bw, #bw2, #xy, #oa, #sm {
+		background-image: none;
+	}
+
+}
+
+
+@media (max-width: 650px) {
+
+	.btn {
+		width: 100%;
+		border: none;
+		padding: 55px 0;
+		font-size: 30px;
+		font-weight: 400;
+}
+
+@media (max-width: 500px) {
+
+	.team {
+		width: 150px;
+		height: 150px;
+		border-radius: 49%;
+		margin-left: 90px
+	}
+}
+
+
+}
+
+
+
+
+

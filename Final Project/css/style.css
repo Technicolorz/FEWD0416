@@ -1,9 +1,10 @@
 body {
 	margin: 0;
+  	padding: 0;
 	background-color: #ffffff;
 }
 nav {
-	background: #3d3d3d;
+	background: #444444;
 	padding: 20px 0;
 }
 nav ul {
@@ -20,24 +21,30 @@ nav ul li {
 nav ul li a {
 	display: inline-block;
 	text-decoration: none;
-	color: #ffffff;
-	font-family: sans-serif;
+	color: #e1e1e1;
+	font-family: 'Ubuntu', sans-serif;
 }
+span {
+	font-weight: 700;
+}
+
+
 .btn {
 	cursor: pointer;
-	width: 49.75%;
+	width: 50%;
 	border: none;
 	padding: 55px 5px;
+	float: left;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 30px;
 	text-align: center;
-}
-#game-titles {
+	font-weight: 400;
 }
 #game-titles .section {
 	box-sizing: border-box;
 	width: 100%;
+	height: 100%;
 	margin-right: 0;
 	padding: 25px 5px;
 	vertical-align: top;
@@ -52,42 +59,51 @@ nav ul li a {
 	margin: auto;
 }
 #game-titles .section h2 {
-	font-family: sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 30px;
-	text-align: center;
-	font-weight: bold;
+	text-align: left;
+	padding-left: 40px;
+	font-weight: 700;
 	color: #000000;
 }
 .rg-btn {
-	/* background: linear-gradient(135deg, #00cc00 45%, #cc0000 55%); */
-	background: linear-gradient(90deg, rgba(41,206,77,1) 0%, rgba(119,134,57,0) 40%, rgba(158,98,47,0) 60%, rgba(237,26,26,1) 100%);
+	background: linear-gradient(105deg, #00dd00 50%, #ff7327 50%);
+	/* background: linear-gradient(90deg, rgba(41,206,77,1) 0%, rgba(119,134,57,0) 40%, rgba(158,98,47,0) 60%, rgba(237,26,26,1) 100%); */
 }
-.es-btn {
-	background: linear-gradient(90deg, rgba(0,224,100,1) 0%, rgba(6,134,133,0) 40%, rgba(9,89,150,0) 60%, rgba(15,0,183,1) 100%);
+.rs-btn {
+	background: linear-gradient(105deg, #a00000 50%, #0000a0 50%););
+	/*background: linear-gradient(90deg, rgba(0,224,100,1) 0%, rgba(6,134,133,0) 40%, rgba(9,89,150,0) 60%, rgba(15,0,183,1) 100%);*/
 }
 .dp-btn {
-	background: linear-gradient(90deg, rgba(41,101,206,1) 0%, rgba(109,91,218,0) 40%, rgba(143,86,224,0) 60%, rgba(212,75,237,1) 100%); 
+	background: linear-gradient(105deg, #aaaaff 50%, #ffaaaa 50%);
+	/* background: linear-gradient(90deg, rgba(41,101,206,1) 0%, rgba(109,91,218,0) 40%, rgba(143,86,224,0) 60%, rgba(212,75,237,1) 100%);*/
 }
 .platinum-btn {
-	background: linear-gradient(90deg, rgba(219,98,98,1) 0%, rgba(174,102,102,0) 40%, rgba(152,104,104,0) 60%, rgba(107,107,107,1) 100%); 
+	background: #999999; 
 }
 .gs-btn {
-	background: linear-gradient(90deg, rgba(252,198,50,1) 0%, rgba(229,206,122,0) 40%, rgba(218,210,158,0) 60%, rgba(195,219,229,1) 100%); 
+	background: linear-gradient(105deg, #b69e00 50%, #c0c0e1 50%);
+	/* background: linear-gradient(90deg, rgba(252,198,50,1) 0%, rgba(229,206,122,0) 40%, rgba(218,210,158,0) 60%, rgba(195,219,229,1) 100%);*/
 }
 .bw-btn {
-	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(122,122,122,0) 50%, rgba(244,244,244,1) 100%);
+	background: linear-gradient(105deg, #444444 50%,#e1e1e1 50%);
+	/*background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(122,122,122,0) 50%, rgba(244,244,244,1) 100%);*/
 }
 .bw2-btn {
-	background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(122,122,122,0) 50%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(105deg, #e1e1e1 50%, #444444 50%);
+	/*background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(122,122,122,0) 50%, rgba(0,0,0,1) 100%);*/
 }
 .xy-btn {
-	background: linear-gradient(90deg, rgba(0,101,155,1) 0%, rgba(71,61,94,0) 40%, rgba(107,41,63,0) 60%, rgba(178,0,2,1) 100%);
+	background: linear-gradient(105deg, #6376b8 50%, #ed5540 50%);
+	/* background: linear-gradient(90deg, rgba(0,101,155,1) 0%, rgba(71,61,94,0) 40%, rgba(107,41,63,0) 60%, rgba(178,0,2,1) 100%); */
 }
 .oa-btn {
-	background: linear-gradient(90deg, rgba(16,0,255,1) 0%, rgba(106,0,153,0) 40%, rgba(151,0,102,0) 60%, rgba(242,0,0,1) 100%);
+	background: linear-gradient(105deg, #cf3025 50%, #1768d1 50%);
+	/*background: linear-gradient(90deg, rgba(16,0,255,1) 0%, rgba(106,0,153,0) 40%, rgba(151,0,102,0) 60%, rgba(242,0,0,1) 100%); */
 }
 .sm-btn {
-	background: linear-gradient(90deg, rgba(255,212,0,1) 0%, rgba(193,127,74,0) 40%, rgba(162,85,111,0) 60%, rgba(99,0,186,1) 100%);
+	background: linear-gradient(105deg, #f1912b 50%, #5599ca 50%);
+	/* background: linear-gradient(90deg, rgba(255,212,0,1) 0%, rgba(193,127,74,0) 40%, rgba(162,85,111,0) 60%, rgba(99,0,186,1) 100%); */
 }
 
 .center {
@@ -96,9 +112,856 @@ nav ul li a {
 }
 .team {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	border: 2px solid black;
 	border-radius: 50%;
-	margin: 60px;
+	margin: 40px 80px;
+	text-align: center;
+	position: relative;
+	color: transparent;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
 }
+.team::first-line {
+	line-height: 6;
+}
+.moves_sec, .moves_sec2, .moves_sec3, .moves_sec4, .moves_sec5, .moves_sec6, .moves_sec7, .moves_sec8, .moves_sec9, .moves_sec10 {
+	display: none;
+  	position: absolute;
+  	width: 550px;
+  	padding: 10px;
+  	background: rgba(238,238,238,.7);
+  	color: #000000;
+  	border: 1px solid #1a1a1a;
+  	font-size: 90%;
+}
+table {
+	border: 1px solid black;
+}
+table th tr {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+td {
+	padding: 5px 10px 5px 0;
+}
+
+
+#rg {
+	background: url('../images/leaf.png');
+	background-color: rgba(41,206,77,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: bottom right;
+	background-size: 15%;
+}
+#rg .team {
+	background: rgba(41,206,77,1);
+}
+#rg .pkm1 {
+	background: url('../images/charizard.gif');
+	background-repeat: no-repeat;
+	background-position: -5px;
+	background-size: 165px;
+}
+#rg .pkm1:hover {
+	background: linear-gradient(135deg, #ee8130 50%, #a98ff3 50%);
+	color: black;
+	font-weight: 300;
+}
+#rg .pkm2 {
+	background: url('../images/lapras.gif');
+	background-repeat: no-repeat;
+	background-position-x: 5px;
+	background-position-y: 5px;
+	background-size: 170px;
+}
+#rg .pkm2:hover {
+	background: linear-gradient(135deg, #6390F0 50%, #96D9D6 50%);
+	color: black;
+	font-weight: 300;
+}
+#rg .pkm3 {
+	background: url('../images/ninetales.gif');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 150px;
+}
+#rg .pkm3:hover {
+	background: #ee8130;
+	color: black;
+	font-weight: 300;
+}
+#rg .pkm4 {
+	background: url('../images/gengar.gif');
+	background-repeat: no-repeat;
+	background-position: -15px;
+	background-size: 185px;
+}
+#rg .pkm4:hover {
+	background: linear-gradient(135deg, #735797 50%, #A33EA1 50%);
+	color: black;
+	font-weight: 300;
+}
+#rg .pkm5 {
+	background: url('../images/jolteon.gif');
+	background-repeat: no-repeat;
+	background-position-x: 10px;
+	background-position-y: -15px;
+	background-size: 160px;
+}
+#rg .pkm5:hover {
+	background: #F7D02C;
+	color: black;
+	font-weight: 300;
+}
+#rg .pkm6 {
+	background: url('../images/victreebel.gif');
+	background-repeat: no-repeat;
+	background-position: -8px;
+	background-size: 160px;
+}
+#rg .pkm6:hover {
+	background: linear-gradient(135deg, #7AC74C 50%, #A33EA1 50%);
+	color: black;
+	font-weight: 300;
+}
+
+
+#rs {
+	background: url('../images/may.png');
+	background-color: rgba(0,0,160,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: bottom right;
+	background-size: 17%;
+}
+#rs .team {
+	background: #0000a0;
+}
+#rs .pkm1 {
+	background: url('../images/swampert.gif');
+	background-repeat: no-repeat;
+	background-position: -5px;
+	background-size: 165px;
+}
+#rs .pkm1:hover {
+	background: linear-gradient(135deg, #6390F0 50%, #E2BF65 50%);
+	color: black;
+	font-weight: 300;
+}
+#rs .pkm2 {
+	background: url('../images/gardevoir.gif');
+	background-repeat: no-repeat;
+	background-position: 10px;
+	background-size: 150px;
+}
+#rs .pkm2:hover {
+	background: #F95587;
+	color: black;
+	font-weight: 300;
+}
+#rs .pkm3 {
+	background: url('../images/crobat.gif');
+	background-repeat: no-repeat;
+	background-position: -5px;
+	background-size: 165px;
+}
+#rs .pkm3:hover {
+	background: linear-gradient(135deg, #A33EA1 50%, #A98FF3 50%);
+	color: black;
+	font-weight: 300;
+}
+#rs .pkm4 {
+	background: url('../images/metagros.gif');
+	background-repeat: no-repeat;
+	background-position: -5px;
+	background-size: 180px;
+}
+#rs .pkm4:hover {
+	background: linear-gradient(135deg, #B7B7CE 50%, #F95587 50%);
+	color: black;
+	font-weight: 300;
+}
+#rs .pkm5 {
+	background: url('../images/flygon2.gif');
+	background-repeat: no-repeat;
+	background-position: -5px;
+	background-size: 165px;
+}
+#rs .pkm5:hover {
+	background: linear-gradient(135deg, #E2BF65 50%, #6F35FC 50%);
+	color: black;
+	font-weight: 300;
+}
+#rs .pkm6 {
+	background: url('../images/absol.gif');
+	background-repeat: no-repeat;
+	background-position: -5px;
+	background-size: 165px;
+}
+#rs .pkm6:hover {
+	background: #705746;
+	color: black;
+	font-weight: 300;
+}
+
+
+#dp {
+	background: url('../images/dawn.png');
+	background-color: rgba(170,170,255,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: bottom right;
+	background-size: 20%;
+}
+#dp .team {
+	background: #aaaaff;
+}
+#dp .pkm1 {
+	background: url('../images/empoleon.gif');
+	background-repeat: no-repeat;
+	background-position: -50px;
+	background-size: 250px;
+}
+#dp .pkm1:hover {
+	background: linear-gradient(135deg, #6390F0 50%, #B7B7CE 50%);
+	color: black;
+	font-weight: 300;
+}
+#dp .pkm2 {
+	background: url('../images/staraptor.gif');
+	background-repeat: no-repeat;
+	background-position-x: 5px;
+	background-position-y: 5px;
+	background-size: 150px;
+}
+#dp .pkm2:hover {
+	background: linear-gradient(135deg, #A8A77A 50%, #A98FF3 50%);
+	color: black;
+	font-weight: 300;
+}
+#dp .pkm3 {
+	background: url('../images/luxray.gif');
+	background-repeat: no-repeat;
+	background-position: 5px;
+	background-size: 150px;
+}
+#dp .pkm3:hover {
+	background: #F7D02C;
+	color: black;
+	font-weight: 300;
+}
+#dp .pkm4 {
+	background: url('../images/sneasle.gif');
+	background-repeat: no-repeat;
+	background-position: 0;
+	background-size: 140px;
+}
+#dp .pkm4:hover {
+	background: linear-gradient(135deg, #705746 50%, #96D9D6 50%);
+	color: black;
+	font-weight: 300;
+}
+#dp .pkm5 {
+	background: url('../images/lucario.gif');
+	background-repeat: no-repeat;
+	background-position-x: -15px;
+	background-position-y: -17px;
+	background-size: 180px;
+}
+#dp .pkm5:hover {
+	background: linear-gradient(135deg, #C22E28 50%, #B7B7CE 50%);
+	color: black;
+	font-weight: 300;
+}
+#dp .pkm6 {
+	background: url('../images/croagunk.gif');
+	background-repeat: no-repeat;
+	background-size: 160px;
+}
+#dp .pkm6:hover {
+	background: linear-gradient(135deg, #A33EA1 50%, #C22E28 50%);
+	color: black;
+	font-weight: 300;
+}
+
+
+#platinum {
+	background: url('../images/lucas.png');
+	background-color: rgba(153,153,153,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: bottom right;
+	background-size: 15%;
+}
+#platinum .team {
+	background: #aaaaff;
+}
+#platinum .pkm1 {
+	background: url('../images/empoleon.gif');
+	background-repeat: no-repeat;
+	background-position: -50px;
+	background-size: 250px;
+}
+#platinum .pkm1:hover {
+	background: linear-gradient(135deg, #6390F0 50%, #B7B7CE 50%);
+	color: black;
+	font-weight: 300;
+}
+#platinum .pkm2 {
+	background: url('../images/staraptor.gif');
+	background-repeat: no-repeat;
+	background-position-x: 5px;
+	background-position-y: 5px;
+	background-size: 150px;
+}
+#platinum .pkm2:hover {
+	background: linear-gradient(135deg, #A8A77A 50%, #A98FF3 50%);
+	color: black;
+	font-weight: 300;
+}
+#platinum .pkm3 {
+	background: url('../images/luxray.gif');
+	background-repeat: no-repeat;
+	background-position: 5px;
+	background-size: 150px;
+}
+#platinum .pkm3:hover {
+	background: #F7D02C;
+	color: black;
+	font-weight: 300;
+}
+#platinum .pkm4 {
+	background: url('../images/haunter.gif');
+	background-repeat: no-repeat;
+	background-position: 0;
+	background-size: 160px;
+}
+#platinum .pkm4:hover {
+	background: linear-gradient(135deg, #735797 50%, #A33EA1 50%);
+	color: black;
+	font-weight: 300;
+}
+#platinum .pkm5 {
+	background: url('../images/glalie.gif');
+	background-repeat: no-repeat;
+	background-position-x: 5px;
+	background-position-y: 5px;
+	background-size: 140px;
+}
+#platinum .pkm5:hover {
+	background: #96D9D6;
+	color: black;
+	font-weight: 300;
+}
+#platinum .pkm6 {
+	background: url('../images/rapidash.gif');
+	background-repeat: no-repeat;
+	background-position-y: -5px;
+	background-size: 160px;
+}
+#platinum .pkm6:hover {
+	background: #EE8130;
+	color: black;
+	font-weight: 300;
+}
+
+
+#gs {
+	background: url('../images/lyra.png');
+	background-color: rgba(192,192,255,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: bottom right;
+	background-size: 17%;
+}
+#gs .team {
+	background: rgba(41,206,77,1);
+}
+#gs .pkm1 {
+	background: url('../images/feraligatr.gif');
+	background-repeat: no-repeat;
+	background-position: -5px;
+	background-size: 150px;
+}
+#gs .pkm1:hover {
+	background: #6390F0;
+	color: black;
+	font-weight: 300;
+}
+#gs .pkm2 {
+	background: url('../images/lugia.gif');
+	background-repeat: no-repeat;
+	background-position-x: -30px;
+	background-position-y: -20px;
+	background-size: 230px;
+}
+#gs .pkm2:hover {
+	background: linear-gradient(135deg, #F95587 50%, #A98FF3 50%);
+	color: black;
+	font-weight: 300;
+}
+#gs .pkm3 {
+	background: url('../images/pidgeot.gif');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 150px;
+}
+#gs .pkm3:hover {
+	background: linear-gradient(135deg, #A8A77A 50%, #A98FF3 50%);
+	color: black;
+	font-weight: 300;
+}
+#gs .pkm4 {
+	background: url('../images/typhlosion.gif');
+	background-repeat: no-repeat;
+	background-position-x: 15px;
+	background-position-y: 20px;
+	background-size: 130px;
+}
+#gs .pkm4:hover {
+	background: #EE8130;
+	color: black;
+	font-weight: 300;
+}
+#gs .pkm5 {
+	background: url('../images/flygon2.gif');
+	background-repeat: no-repeat;
+	background-position: -5px;
+	background-size: 160px;
+}
+#gs .pkm5:hover {
+	background: linear-gradient(135deg, #E2BF65 50%, #6F35FC 50%);
+	color: black;
+	font-weight: 300;
+}
+#gs .pkm6 {
+	background: url('../images/meganium.gif');
+	background-repeat: no-repeat;
+	background-position: -40px;
+	background-size: 260px;
+}
+#gs .pkm6:hover {
+	background: #7AC74C;
+	color: black;
+	font-weight: 300;
+}
+
+
+#bw {
+	background: url('../images/hilda.png');
+	background-color: rgba(68,68,68,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: bottom right;
+	background-size: 17%;
+}
+#bw .team {
+	background: rgba(41,206,77,1);
+}
+#bw .pkm1 {
+	background: url('../images/samurott.gif');
+	background-repeat: no-repeat;
+	background-position: 10px;
+	background-size: 130px;
+}
+#bw .pkm1:hover {
+	background: #6390F0;
+	color: black;
+	font-weight: 300;
+}
+#bw .pkm2 {
+	background: url('../images/liepard.gif');
+	background-repeat: no-repeat;
+	background-position-y: -5px;
+	background-size: 150px;
+}
+#bw .pkm2:hover {
+	background: #705746;
+	color: black;
+	font-weight: 300;
+}
+#bw .pkm3 {
+	background: url('../images/victini.gif');
+	background-repeat: no-repeat;
+	background-position-x: -15px;
+	background-position-y: -25px;
+	background-size: 150px;
+}
+#bw .pkm3:hover {
+	background: linear-gradient(135deg, #F95587 50%, #EE8130 50%);
+	color: black;
+	font-weight: 300;
+}
+#bw .pkm4 {
+	background: url('../images/unifezant.gif');
+	background-repeat: no-repeat;
+	background-position-x: 20px;
+	background-position-y: -5px;
+	background-size: 150px;
+}
+#bw .pkm4:hover {
+	background: linear-gradient(135deg, #A8A77A 50%, #A98FF3 50%);
+	color: black;
+	font-weight: 300;
+}
+#bw .pkm5 {
+	background: url('../images/mienshao.gif');
+	background-repeat: no-repeat;
+	background-position: -5px;
+	background-size: 160px;
+}
+#bw .pkm5:hover {
+	background: #C22E28;
+	color: black;
+	font-weight: 300;
+}
+#bw .pkm6 {
+	background: url('../images/krookodile.gif');
+	background-repeat: no-repeat;
+	background-position: -20px;
+	background-size: 150px;
+}
+#bw .pkm6:hover {
+	background: linear-gradient(135deg, #E2BF65 50%, #705746 50%);
+	color: black;
+	font-weight: 300;
+}
+
+
+#bw2 {
+	background: url('../images/rosa.png');
+	background-color: rgba(225,225,225,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: bottom right;
+	background-size: 15%;
+}
+#bw2 .team {
+	background: rgba(41,206,77,1);
+}
+#bw2 .pkm1 {
+	background: url('../images/serperior.gif');
+	background-repeat: no-repeat;
+	background-size: 150px;
+}
+#bw2 .pkm1:hover {
+	background: #7AC74C;
+	color: black;
+	font-weight: 300;
+}
+#bw2 .pkm2 {
+	background: url('../images/ampharos.gif');
+	background-repeat: no-repeat;
+	background-position-y: 0;
+	background-size: 150px;
+}
+#bw2 .pkm2:hover {
+	background: #F7D02C;
+	color: black;
+	font-weight: 300;
+}
+#bw2 .pkm3 {
+	background: url('../images/scolipede.gif');
+	background-repeat: no-repeat;
+	background-position-x: -10px;
+	background-position-y: -15px;
+	background-size: 160px;
+}
+#bw2 .pkm3:hover {
+	background: linear-gradient(135deg, #A6B91A 50%, #A33EA1 50%);
+	color: black;
+	font-weight: 300;
+}
+#bw2 .pkm4 {
+	background: url('../images/braviary.gif');
+	background-repeat: no-repeat;
+	background-position-x: -5px;
+	background-position-y: -5px;
+	background-size: 180px;
+}
+#bw2 .pkm4:hover {
+	background: linear-gradient(135deg, #A8A77A 50%, #A98FF3 50%);
+	color: black;
+	font-weight: 300;
+}
+#bw2 .pkm5 {
+	background: url('../images/scraggy.gif');
+	background-repeat: no-repeat;
+	background-position: 40px;
+	background-size: 90px;
+}
+#bw2 .pkm5:hover {
+	background: linear-gradient(135deg, #705746 50%, #C22E28 50%);
+	color: black;
+	font-weight: 300;
+}
+#bw2 .pkm6 {
+	background: url('../images/reuniclus.gif');
+	background-repeat: no-repeat;
+	background-size: 150px;
+}
+#bw2 .pkm6:hover {
+	background: #F95587;
+	color: black;
+	font-weight: 300;
+}
+
+
+#xy {
+	background: url('../images/serena.png');
+	background-color: rgba(99,118,184,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: bottom right;
+	background-size: 22%;
+}
+#xy .team {
+	background: rgba(41,206,77,1);
+}
+#xy .pkm1 {
+	background: url('../images/greninja.gif');
+	background-repeat: no-repeat;
+	background-position: -30px;
+	background-size: 250px;
+}
+#xy .pkm1:hover {
+	background: linear-gradient(135deg, #6390F0 50%, #705746 50%);
+	color: black;
+	font-weight: 300;
+}
+#xy .pkm2 {
+	background: url('../images/gardevoir2.gif');
+	background-repeat: no-repeat;
+	background-position-x: -55px;
+	background-position-y: -70px;
+	background-size: 250px;
+}
+#xy .pkm2:hover {
+	background: linear-gradient(135deg, #F95587 50%, #D685AD 50%);
+	color: black;
+	font-weight: 300;
+}
+#xy .pkm3 {
+	background: url('../images/blaziken.gif');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 180px;
+}
+#xy .pkm3:hover {
+	background: linear-gradient(135deg, #EE8130 50%, #C22E28 50%);
+	color: black;
+	font-weight: 300;
+}
+#xy .pkm4 {
+	background: url('../images/nidoqueen.gif');
+	background-repeat: no-repeat;
+	background-size: 150px;
+}
+#xy .pkm4:hover {
+	background: linear-gradient(135deg, #A33EA1 50%, #E2BF65 50%);
+	color: black;
+	font-weight: 300;
+}
+#xy .pkm5 {
+	background: url('../images/lucario2.gif');
+	background-repeat: no-repeat;
+	background-position-x: -70px;
+	background-position-y: -75px;
+	background-size: 260px;
+}
+#xy .pkm5:hover {
+	background: linear-gradient(135deg, #C22E28 50%, #B7B7CE 50%);
+	color: black;
+	font-weight: 300;
+}
+#xy .pkm6 {
+	background: url('../images/lapras2.gif');
+	background-repeat: no-repeat;
+	background-position-x: -50px;
+	background-position-y: -80px;
+	background-size: 260px;
+}
+#xy .pkm6:hover {
+	background: linear-gradient(135deg, #6390F0 50%, #96D9D6 50%);
+	color: black;
+	font-weight: 300;
+}
+
+
+#oa {
+	background: url('../images/may2.png');
+	background-color: rgba(170,170,255,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: bottom right;
+	background-size: 18%;
+}
+#oa .team {
+	background: rgba(41,206,77,1);
+}
+#oa .pkm1 {
+	background: url('../images/ninetales2.gif');
+	background-repeat: no-repeat;
+	background-position-x: -50px;
+	background-position-y: -60px;
+	background-size: 250px;
+}
+#oa .pkm1:hover {
+	background: #EE8130;
+	color: black;
+	font-weight: 300;
+}
+#oa .pkm2 {
+	background: url('../images/gardevoir2.gif');
+	background-repeat: no-repeat;
+	background-position-x: -55px;
+	background-position-y: -70px;
+	background-size: 250px;
+}
+#oa .pkm2:hover {
+	background: linear-gradient(135deg, #F95587 50%, #D685AD 50%);
+	color: black;
+	font-weight: 300;
+}
+#oa .pkm3 {
+	background: url('../images/metagross2.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 250px;
+}
+#oa .pkm3:hover {
+	background: linear-gradient(135deg, #B7B7CE 50%, #F95587 50%);
+	color: black;
+	font-weight: 300;
+}
+#oa .pkm4 {
+	background: url('../images/lanturn.gif');
+	background-repeat: no-repeat;
+	background-position-x: -15px;
+	background-position-y: 20px;
+	background-size: 220px;
+}
+#oa .pkm4:hover {
+	background: linear-gradient(135deg, #6390F0 50%, #F7D02C 50%);
+	color: black;
+	font-weight: 300;
+}
+#oa .pkm5 {
+	background: url('../images/sceptile.gif');
+	background-repeat: no-repeat;
+	background-position: 10px;
+	background-size: 140px;
+}
+#oa .pkm5:hover {
+	background: #7AC74C;
+	color: black;
+	font-weight: 300;
+}
+#oa .pkm6 {
+	background: url('../images/banette.gif');
+	background-repeat: no-repeat;
+	background-position: -50px;
+	background-size: 240px;
+}
+#oa .pkm6:hover {
+	background: #735797;
+	color: black;
+	font-weight: 300;
+}
+
+
+#sm {
+	background: url('../images/sun.png');
+	background-color: rgba(241,145,43,.5);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: bottom right;
+	background-size: 17%;
+}
+#sm .team {
+	background: rgba(41,206,77,1);
+}
+#sm .pkm1 {
+	background: url('../images/decidueye.png');
+	background-repeat: no-repeat;
+	background-position: -10px;
+	background-size: 170px;
+}
+#sm .pkm1:hover {
+	background: linear-gradient(135deg, #7AC74C 50%, #735797 50%);
+	color: black;
+	font-weight: 300;
+}
+#sm .pkm2 {
+	background: url('../images/lycanroc.png');
+	background-repeat: no-repeat;
+	background-position-x: -20px;
+	background-position-y: -40px;
+	background-size: 230px;
+}
+#sm .pkm2:hover {
+	background: #B6A136;
+	color: black;
+	font-weight: 300;
+}
+#sm .pkm3 {
+	background: url('../images/salazzle.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 180px;
+}
+#sm .pkm3:hover {
+	background:linear-gradient(135deg, #A33EA1 50%, #EE8130 50%);
+	color: black;
+	font-weight: 300;
+}
+#sm .pkm4 {
+	background: url('../images/mimikyu.png');
+	background-repeat: no-repeat;
+	background-position-x: 15px;
+	background-position-y: -10px;
+	background-size: 150px;
+}
+#sm .pkm4:hover {
+	background: linear-gradient(135deg, #735797 50%, #D685AD 50%);
+	color: black;
+	font-weight: 300;
+}
+#sm .pkm5 {
+	background: url('../images/ribombee.png');
+	background-repeat: no-repeat;
+	background-position: 5px;
+	background-size: 150px;
+}
+#sm .pkm5:hover {
+	background: linear-gradient(135deg, #A6B91A 50%, #D685AD 50%);
+	color: black;
+	font-weight: 300;
+}
+#sm .pkm6 {
+	background: url('../images/mudsdale.png');
+	background-repeat: no-repeat;
+	background-position: -40px;
+	background-size: 180px;
+}
+#sm .pkm6:hover {
+	background: #E2BF65;
+	color: black;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

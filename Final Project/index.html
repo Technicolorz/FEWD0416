@@ -10,124 +10,743 @@
 	<script type="text/javascript" src="js/index.js"></script>
 
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style2.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
 
 </head>
 <body>
 	<nav>
 		<ul>
 			<li>
-				<a href="#">My Teams</a>
+				<a href="#">Teams</a>
 			</li>
 			<li>
-				<a href="#">About</a>
-			</li>
-			<li>
-				<a href="#">Your Team?</a>
+				<a href="about.html" id="about">About</a>
 			</li>
 		</ul>
 	</nav>
 	<div id="game-titles">
 		<button class="btn rg-btn">Leaf Green & Fire Red</button>
-		<div class="section rg">
-			<h2>Leaf Green & Fire Red</h2>
-			<div class="team pkm1"></div>
-			<div class="team pkm2"></div>
-			<div class="team pkm3"></div>
-			<div class="team pkm4"></div>
-			<div class="team pkm5"></div>
-			<div class="team pkm6"></div>
+		<div id="rg" class="section">
+			<h2>Leaf Green</h2>
+			<div class="team pkm1">charizard<br><span>Lv</span>80</div>
+			<div class="team pkm2">lapras<br><span>Lv</span>80</div>
+			<div class="team pkm3">ninetales<br><span>Lv</span>78</div><br>
+			<div class="team pkm4">gengar<br><span>Lv</span>77</div>
+			<div class="team pkm5">jolteon<br><span>Lv</span>75</div>
+			<div class="team pkm6">victrybel<br><span>Lv</span>77</div>
+			<div class="moves_sec">
+				<table>
+					<tr>
+						<th>Charizard</th>
+						<th></th>
+						<th></th>
+						<th>Lapras</th>
+						<th></th>
+						<th></th>
+						<th>Ninetales</th>
+					</tr>
+					<tr>
+						<td>Flamethrower</td>
+						<td>Fly</td>
+						<td></td>
+						<td>Surf</td>
+						<td>IceBeam</td>
+						<td></td>
+						<td>Overheat</td>
+						<td>FlameCharge</td>
+					</tr>
+					<tr>
+						<td>DragonRage</td>
+						<td>SteelWing</td>
+						<td></td>
+						<td>Hydropump</td>
+						<td>ThunderBolt</td>
+						<td></td>
+						<td>DarkPulse</td>
+						<td>IronTail</td>
+					</tr>
+					<tr>
+						<th>Gengar</th>
+						<th></th>
+						<th></th>
+						<th>Jolteon</th>
+						<th></th>
+						<th></th>
+						<th>Victrybel</th>
+					</tr>
+					<tr>
+						<td>SuckerPunch</td>
+						<td>ShadowBall</td>
+						<td></td>
+						<td>ThunderFang</td>
+						<td>DoubleKick</td>
+						<td></td>
+						<td>LeafStorm</td>
+						<td>VineWhip</td>
+					</tr>
+					<tr>
+						<td>EnergyBall</td>
+						<td>ThunderBolt</td>
+						<td></td>
+						<td>ShadowBall</td>
+						<td>WildCharge</td>
+						<td></td>
+						<td>Venoshock</td>
+						<td>GrassKnot</td>
+					</tr>
+				</table>
+			</div>
 		</div>
-		<button class="btn es-btn">Emerald & Sapphire</button>
-		<div class="section es">
-			<h2>Emerald & Sapphire</h2>
-			<div class="team pkm1"></div>
-			<div class="team pkm2"></div>
-			<div class="team pkm3"></div>
-			<div class="team pkm4"></div>
-			<div class="team pkm5"></div>
-			<div class="team pkm6"></div>
+		<button class="btn rs-btn">Ruby & Sapphire</button>
+		<div id="rs" class="section">
+			<h2>Sapphire</h2>
+			<div class="team pkm1">swampert<br><span>Lv</span>65</div>
+			<div class="team pkm2">gardevoir<br><span>Lv</span>63</div>
+			<div class="team pkm3">crobat<br><span>Lv</span>63</div><br>
+			<div class="team pkm4">metagross<br><span>Lv</span>56</div>
+			<div class="team pkm5">flygon<br><span>Lv</span>58</div>
+			<div class="team pkm6">absol<br><span>Lv</span>59</div>
+			<div class="moves_sec2">
+				<table>
+					<tr>
+						<th>Swampert</th>
+						<th></th>
+						<th></th>
+						<th>Gardevoir</th>
+						<th></th>
+						<th></th>
+						<th>Crobat</th>
+					</tr>
+					<tr>
+						<td>HammerArm</td>
+						<td>MuddyWater</td>
+						<td></td>
+						<td>Psychic</td>
+						<td>Hypnosis</td>
+						<td></td>
+						<td>Venoshock</td>
+						<td>AerialAce</td>
+					</tr>
+					<tr>
+						<td>Earthquake</td>
+						<td>IceBeam</td>
+						<td></td>
+						<td>MagicalLeaf</td>
+						<td>ThunderBolt</td>
+						<td></td>
+						<td>SteelWing</td>
+						<td>Bite</td>
+					</tr>
+					<tr>
+						<th>Metagross</th>
+						<th></th>
+						<th></th>
+						<th>Flygon</th>
+						<th></th>
+						<th></th>
+						<th>Absol</th>
+					</tr>
+					<tr>
+						<td>MeteorMash</td>
+						<td>Psychic</td>
+						<td></td>
+						<td>DragonClaw</td>
+						<td>DragonTail</td>
+						<td></td>
+						<td>Slash</td>
+						<td>PsychoCut</td>
+					</tr>
+					<tr>
+						<td>MetalArm</td>
+						<td>GrassKnot</td>
+						<td></td>
+						<td>Earthquake</td>
+						<td>Fly</td>
+						<td></td>
+						<td>NightSlash</td>
+						<td>Thunderbolt</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 		<button class="btn dp-btn">Diamond & Pearl</button>
-		<div class="section dp">
-			<h2>Diamond & Pearl</h2>
-			<div class="team pkm1"></div>
-			<div class="team pkm2"></div>
-			<div class="team pkm3"></div>
-			<div class="team pkm4"></div>
-			<div class="team pkm5"></div>
-			<div class="team pkm6"></div>
+		<div id="dp" class="section">
+			<h2>Diamond</h2>
+			<div class="team pkm1">empoleon<br><span>Lv</span>77</div>
+			<div class="team pkm2">staraptor<br><span>Lv</span>64</div>
+			<div class="team pkm3">luxray<br><span>Lv</span>65</div><br>
+			<div class="team pkm4">sneasle<br><span>Lv</span>57</div>
+			<div class="team pkm5">lucario<br><span>Lv</span>64</div>
+			<div class="team pkm6">croagunk<br><span>Lv</span>57</div>
+			<div class="moves_sec3">
+				<table>
+					<tr>
+						<th>Empoleon</th>
+						<th></th>
+						<th></th>
+						<th>Staraptor</th>
+						<th></th>
+						<th></th>
+						<th>Luxray</th>
+					</tr>
+					<tr>
+						<td>HydroPump</td>
+						<td>MetalClaw</td>
+						<td></td>
+						<td>WingAttack</td>
+						<td>BraveBird</td>
+						<td></td>
+						<td>Crunch</td>
+						<td>WildCharge</td>
+					</tr>
+					<tr>
+						<td>DrillPeck</td>
+						<td>IceBeam</td>
+						<td></td>
+						<td>SteelWing</td>
+						<td>Fly</td>
+						<td></td>
+						<td>Swift</td>
+						<td>IceFang</td>
+					</tr>
+					<tr>
+						<th>Sneasle</th>
+						<th></th>
+						<th></th>
+						<th>Lucario</th>
+						<th></th>
+						<th></th>
+						<th>Croagunk</th>
+					</tr>
+					<tr>
+						<td>Slash</td>
+						<td>IceShard</td>
+						<td></td>
+						<td>DragonPulse</td>
+						<td>ExtremeSpeed</td>
+						<td></td>
+						<td>SuckerPunch</td>
+						<td>PoisonJab</td>
+					</tr>
+					<tr>
+						<td>AerialAce</td>
+						<td>DarkPulse</td>
+						<td></td>
+						<td>BoneRush</td>
+						<td>SwordsDance</td>
+						<td></td>
+						<td>BrickBreak</td>
+						<td>ShadowBall</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 		<button class="btn platinum-btn">Platinum</button>
-		<div class="section platinum">
+		<div id="platinum" class="section">
 			<h2>Platinum</h2>
-			<div class="team pkm1"></div>
-			<div class="team pkm2"></div>
-			<div class="team pkm3"></div>
-			<div class="team pkm4"></div>
-			<div class="team pkm5"></div>
-			<div class="team pkm6"></div>
+			<div class="team pkm1">empoleon<br><span>Lv</span>80</div>
+			<div class="team pkm2">staraptor<br><span>Lv</span>77</div>
+			<div class="team pkm3">luxray<br><span>Lv</span>75</div><br>
+			<div class="team pkm4">haunter<br><span>Lv</span>69</div>
+			<div class="team pkm5">glalie<br><span>Lv</span>74</div>
+			<div class="team pkm6">rapidash<br><span>Lv</span>78</div>
+			<div class="moves_sec4">
+				<table>
+					<tr>
+						<th>Empoleon</th>
+						<th></th>
+						<th></th>
+						<th>Staraptor</th>
+						<th></th>
+						<th></th>
+						<th>Luxray</th>
+					</tr>
+					<tr>
+						<td>HydroPump</td>
+						<td>MetalClaw</td>
+						<td></td>
+						<td>WingAttack</td>
+						<td>BraveBird</td>
+						<td></td>
+						<td>Crunch</td>
+						<td>WildCharge</td>
+					</tr>
+					<tr>
+						<td>DrillPeck</td>
+						<td>IceBeam</td>
+						<td></td>
+						<td>SteelWing</td>
+						<td>Fly</td>
+						<td></td>
+						<td>Swift</td>
+						<td>IceFang</td>
+					</tr>
+					<tr>
+						<th>Haunter</th>
+						<th></th>
+						<th></th>
+						<th>Glalie</th>
+						<th></th>
+						<th></th>
+						<th>Rapidash</th>
+					</tr>
+					<tr>
+						<td>DarkPulse</td>
+						<td>ShadowBall</td>
+						<td></td>
+						<td>IceFang</td>
+						<td>Crunch</td>
+						<td></td>
+						<td>FlameWheel</td>
+						<td>FlameThrower</td>
+					</tr>
+					<tr>
+						<td>Lick</td>
+						<td>ShadowPunch</td>
+						<td></td>
+						<td>SheerCold</td>
+						<td>Earthquake</td>
+						<td></td>
+						<td>Bounce</td>
+						<td>TakeDown</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 		<button class="btn gs-btn">Heart Gold • Soul Silver</button>
-		<div class="section gs">
-			<h2>Heart Gold • Soul Silver</h2>
-			<div class="team pkm1"></div>
-			<div class="team pkm2"></div>
-			<div class="team pkm3"></div>
-			<div class="team pkm4"></div>
-			<div class="team pkm5"></div>
-			<div class="team pkm6"></div>
+		<div id="gs" class="section">
+			<h2>Soul Silver</h2>
+			<div class="team pkm1">feraligatr<br><span>Lv</span>75</div>
+			<div class="team pkm2">lugia<br><span>Lv</span>70</div>
+			<div class="team pkm3">pidgeot<br><span>Lv</span>74</div><br>
+			<div class="team pkm4">typhlosion<br><span>Lv</span>68</div>
+			<div class="team pkm5">flygon<br><span>Lv</span>66</div>
+			<div class="team pkm6">meganium<br><span>Lv</span>64</div>
+			<div class="moves_sec5">
+				<table>
+					<tr>
+						<th>Feraligatr</th>
+						<th></th>
+						<th></th>
+						<th>Lugia</th>
+						<th></th>
+						<th></th>
+						<th>Pidgeot</th>
+					</tr>
+					<tr>
+						<td>Flamethrower</td>
+						<td>Fly</td>
+						<td></td>
+						<td>Surf</td>
+						<td>IceBeam</td>
+						<td></td>
+						<td>Overheat</td>
+						<td>FlameCharge</td>
+					</tr>
+					<tr>
+						<td>DragonRage</td>
+						<td>SteelWing</td>
+						<td></td>
+						<td>Hydropump</td>
+						<td>ThunderBolt</td>
+						<td></td>
+						<td>DarkPulse</td>
+						<td>IronTail</td>
+					</tr>
+					<tr>
+						<th>Typhlosion</th>
+						<th></th>
+						<th></th>
+						<th>Flygon</th>
+						<th></th>
+						<th></th>
+						<th>Meganium</th>
+					</tr>
+					<tr>
+						<td>MeteorMash</td>
+						<td>Psychic</td>
+						<td></td>
+						<td>DragonClaw</td>
+						<td>DragonTail</td>
+						<td></td>
+						<td>Slash</td>
+						<td>PsychoCut</td>
+					</tr>
+					<tr>
+						<td>MetalArm</td>
+						<td>GrassKnot</td>
+						<td></td>
+						<td>Earthquake</td>
+						<td>Fly</td>
+						<td></td>
+						<td>NightSlash</td>
+						<td>Thunderbolt</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 		<button class="btn bw-btn">Black • White</button>
-		<div class="section bw">
-			<h2>Black • White</h2>
-			<div class="team pkm1"></div>
-			<div class="team pkm2"></div>
-			<div class="team pkm3"></div>
-			<div class="team pkm4"></div>
-			<div class="team pkm5"></div>
-			<div class="team pkm6"></div>
+		<div id="bw" class="section">
+			<h2>Black</h2>
+			<div class="team pkm1">samurott<br><span>Lv</span>66</div>
+			<div class="team pkm2">liepard<br><span>Lv</span>64</div>
+			<div class="team pkm3">victini<br><span>Lv</span>61</div><br>
+			<div class="team pkm4">unfezant<br><span>Lv</span>62</div>
+			<div class="team pkm5">mienshao<br><span>Lv</span>60</div>
+			<div class="team pkm6">krookodile<br><span>Lv</span>62</div>
+			<div class="moves_sec6">
+				<table>
+					<tr>
+						<th>Samurott</th>
+						<th></th>
+						<th></th>
+						<th>Liepard</th>
+						<th></th>
+						<th></th>
+						<th>Victini</th>
+					</tr>
+					<tr>
+						<td>MOVE1</td>
+						<td>MOVE2</td>
+						<td></td>
+						<td>MOVE5</td>
+						<td>MOVE6</td>
+						<td></td>
+						<td>MOVE9</td>
+						<td>MOVE10</td>
+					</tr>
+					<tr>
+						<td>MOVE3</td>
+						<td>MOVE4</td>
+						<td></td>
+						<td>MOVE7</td>
+						<td>MOVE8</td>
+						<td></td>
+						<td>MOVE11</td>
+						<td>MOVE12</td>
+					</tr>
+					<tr>
+						<th>Unfezant</th>
+						<th></th>
+						<th></th>
+						<th>Mienshao</th>
+						<th></th>
+						<th></th>
+						<th>Krookodile</th>
+					</tr>
+					<tr>
+						<td>MOVE1</td>
+						<td>MOVE2</td>
+						<td></td>
+						<td>MOVE5</td>
+						<td>MOVE6</td>
+						<td></td>
+						<td>MOVE9</td>
+						<td>MOVE10</td>
+					</tr>
+					<tr>
+						<td>MOVE3</td>
+						<td>MOVE4</td>
+						<td></td>
+						<td>MOVE7</td>
+						<td>MOVE8</td>
+						<td></td>
+						<td>MOVE11</td>
+						<td>MOVE12</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 		<button class="btn bw2-btn">Black 2 • White 2</button>
-		<div class="section bw2">
-			<h2>Black 2 • White 2</h2>
-			<div class="team pkm1"></div>
-			<div class="team pkm2"></div>
-			<div class="team pkm3"></div>
-			<div class="team pkm4"></div>
-			<div class="team pkm5"></div>
-			<div class="team pkm6"></div>
+		<div id="bw2" class="section">
+			<h2>White 2</h2>
+			<div class="team pkm1">serperior<br><span>Lv</span>65</div>
+			<div class="team pkm2">ampharos<br><span>Lv</span>61</div>
+			<div class="team pkm3">scolipede<br><span>Lv</span>58</div><br>
+			<div class="team pkm4">braviary<br><span>Lv</span>56</div>
+			<div class="team pkm5">scraggy<br><span>Lv</span>55</div>
+			<div class="team pkm6">reuniclus<br><span>Lv</span>59</div>
+			<div class="moves_sec7">
+				<table>
+					<tr>
+						<th>Serperior</th>
+						<th></th>
+						<th></th>
+						<th>Ampharos</th>
+						<th></th>
+						<th></th>
+						<th>Scolipede</th>
+					</tr>
+					<tr>
+						<td>MOVE1</td>
+						<td>MOVE2</td>
+						<td></td>
+						<td>MOVE5</td>
+						<td>MOVE6</td>
+						<td></td>
+						<td>MOVE9</td>
+						<td>MOVE10</td>
+					</tr>
+					<tr>
+						<td>MOVE3</td>
+						<td>MOVE4</td>
+						<td></td>
+						<td>MOVE7</td>
+						<td>MOVE8</td>
+						<td></td>
+						<td>MOVE11</td>
+						<td>MOVE12</td>
+					</tr>
+					<tr>
+						<th>Braviary</th>
+						<th></th>
+						<th></th>
+						<th>Scraggy</th>
+						<th></th>
+						<th></th>
+						<th>Reuniclus</th>
+					</tr>
+					<tr>
+						<td>MOVE1</td>
+						<td>MOVE2</td>
+						<td></td>
+						<td>MOVE5</td>
+						<td>MOVE6</td>
+						<td></td>
+						<td>MOVE9</td>
+						<td>MOVE10</td>
+					</tr>
+					<tr>
+						<td>MOVE3</td>
+						<td>MOVE4</td>
+						<td></td>
+						<td>MOVE7</td>
+						<td>MOVE8</td>
+						<td></td>
+						<td>MOVE11</td>
+						<td>MOVE12</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 		<button class="btn xy-btn">X • Y</button>
-		<div class="section xy">
-			<h2>X • Y</h2>
-			<div class="team pkm1"></div>
-			<div class="team pkm2"></div>
-			<div class="team pkm3"></div>
-			<div class="team pkm4"></div>
-			<div class="team pkm5"></div>
-			<div class="team pkm6"></div>
+		<div id="xy" class="section">
+			<h2>X</h2>
+			<div class="team pkm1">greninja<br><span>Lv</span>70</div>
+			<div class="team pkm2">gardevoir<br><span>Lv</span>65</div>
+			<div class="team pkm3">blaziken<br><span>Lv</span>64</div><br>
+			<div class="team pkm4">nidoqueen<br><span>Lv</span>61</div>
+			<div class="team pkm5">lucario<br><span>Lv</span>63</div>
+			<div class="team pkm6">lapras<br><span>Lv</span>65</div>
+			<div class="moves_sec8">
+				<table>
+					<tr>
+						<th>Greninja</th>
+						<th></th>
+						<th></th>
+						<th>Gardevoir</th>
+						<th></th>
+						<th></th>
+						<th>Blaziken</th>
+					</tr>
+					<tr>
+						<td>MOVE1</td>
+						<td>MOVE2</td>
+						<td></td>
+						<td>MOVE5</td>
+						<td>MOVE6</td>
+						<td></td>
+						<td>MOVE9</td>
+						<td>MOVE10</td>
+					</tr>
+					<tr>
+						<td>MOVE3</td>
+						<td>MOVE4</td>
+						<td></td>
+						<td>MOVE7</td>
+						<td>MOVE8</td>
+						<td></td>
+						<td>MOVE11</td>
+						<td>MOVE12</td>
+					</tr>
+					<tr>
+						<th>Nidoqueen</th>
+						<th></th>
+						<th></th>
+						<th>Lucario</th>
+						<th></th>
+						<th></th>
+						<th>Lapras</th>
+					</tr>
+					<tr>
+						<td>MOVE1</td>
+						<td>MOVE2</td>
+						<td></td>
+						<td>MOVE5</td>
+						<td>MOVE6</td>
+						<td></td>
+						<td>MOVE9</td>
+						<td>MOVE10</td>
+					</tr>
+					<tr>
+						<td>MOVE3</td>
+						<td>MOVE4</td>
+						<td></td>
+						<td>MOVE7</td>
+						<td>MOVE8</td>
+						<td></td>
+						<td>MOVE11</td>
+						<td>MOVE12</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 		<button class="btn oa-btn">Omega Ruby • Alpha Sapphire</button>
-		<div class="section oa">
-			<h2>Omega Ruby • Alpha Sapphire</h2>
-			<div class="team pkm1"></div>
-			<div class="team pkm2"></div>
-			<div class="team pkm3"></div>
-			<div class="team pkm4"></div>
-			<div class="team pkm5"></div>
-			<div class="team pkm6"></div>
+		<div id="oa" class="section">
+			<h2>Alpha Sapphire</h2>
+			<div class="team pkm1">ninetales<br><span>Lv</span>62</div>
+			<div class="team pkm2">gardevoir<br><span>Lv</span>66</div>
+			<div class="team pkm3">metagross<br><span>Lv</span>60</div><br>
+			<div class="team pkm4">lanturn<br><span>Lv</span>57</div>
+			<div class="team pkm5">sceptile<br><span>Lv</span>66</div>
+			<div class="team pkm6">banette<br><span>Lv</span>58</div>
+			<div class="moves_sec9">
+				<table>
+					<tr>
+						<th>Ninetales</th>
+						<th></th>
+						<th></th>
+						<th>Gardevoir</th>
+						<th></th>
+						<th></th>
+						<th>Metagross</th>
+					</tr>
+					<tr>
+						<td>MOVE1</td>
+						<td>MOVE2</td>
+						<td></td>
+						<td>MOVE5</td>
+						<td>MOVE6</td>
+						<td></td>
+						<td>MOVE9</td>
+						<td>MOVE10</td>
+					</tr>
+					<tr>
+						<td>MOVE3</td>
+						<td>MOVE4</td>
+						<td></td>
+						<td>MOVE7</td>
+						<td>MOVE8</td>
+						<td></td>
+						<td>MOVE11</td>
+						<td>MOVE12</td>
+					</tr>
+					<tr>
+						<th>Lanturn</th>
+						<th></th>
+						<th></th>
+						<th>Sceptile</th>
+						<th></th>
+						<th></th>
+						<th>Banette</th>
+					</tr>
+					<tr>
+						<td>MOVE1</td>
+						<td>MOVE2</td>
+						<td></td>
+						<td>MOVE5</td>
+						<td>MOVE6</td>
+						<td></td>
+						<td>MOVE9</td>
+						<td>MOVE10</td>
+					</tr>
+					<tr>
+						<td>MOVE3</td>
+						<td>MOVE4</td>
+						<td></td>
+						<td>MOVE7</td>
+						<td>MOVE8</td>
+						<td></td>
+						<td>MOVE11</td>
+						<td>MOVE12</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 		<button class="btn sm-btn">Sun & Moon</button>
-		<div class="section sm">
-			<h2>Sun & Moon</h2>
-			<div class="team pkm1"></div>
-			<div class="team pkm2"></div>
-			<div class="team pkm3"></div>
-			<div class="team pkm4"></div>
-			<div class="team pkm5"></div>
-			<div class="team pkm6"></div>
-
+		<div id="sm" class="section">
+			<h2>Sun</h2>
+			<div class="team pkm1">decidueye<br><span>Lv</span>??</div>
+			<div class="team pkm2">lycanroc<br><span>Lv</span>??</div>
+			<div class="team pkm3">salazzle<br><span>Lv</span>??</div><br>
+			<div class="team pkm4">mimikyu<br><span>Lv</span>??</div>
+			<div class="team pkm5">ribombee<br><span>Lv</span>??</div>
+			<div class="team pkm6">mudsdale<br><span>Lv</span>??</div>
+			<div class="moves_sec10">
+				<table>
+					<tr>
+						<th>Decidueye</th>
+						<th></th>
+						<th></th>
+						<th>Lycanroc</th>
+						<th></th>
+						<th></th>
+						<th>Salazzle</th>
+					</tr>
+					<tr>
+						<td>MOVE1</td>
+						<td>MOVE2</td>
+						<td></td>
+						<td>MOVE5</td>
+						<td>MOVE6</td>
+						<td></td>
+						<td>MOVE9</td>
+						<td>MOVE10</td>
+					</tr>
+					<tr>
+						<td>MOVE3</td>
+						<td>MOVE4</td>
+						<td></td>
+						<td>MOVE7</td>
+						<td>MOVE8</td>
+						<td></td>
+						<td>MOVE11</td>
+						<td>MOVE12</td>
+					</tr>
+					<tr>
+						<th>Mimikyu</th>
+						<th></th>
+						<th></th>
+						<th>Ribombee</th>
+						<th></th>
+						<th></th>
+						<th>Mudsdale</th>
+					</tr>
+					<tr>
+						<td>MOVE1</td>
+						<td>MOVE2</td>
+						<td></td>
+						<td>MOVE5</td>
+						<td>MOVE6</td>
+						<td></td>
+						<td>MOVE9</td>
+						<td>MOVE10</td>
+					</tr>
+					<tr>
+						<td>MOVE3</td>
+						<td>MOVE4</td>
+						<td></td>
+						<td>MOVE7</td>
+						<td>MOVE8</td>
+						<td></td>
+						<td>MOVE11</td>
+						<td>MOVE12</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 	</div>
+
 </body>
 </html>
